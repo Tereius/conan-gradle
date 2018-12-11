@@ -12,7 +12,7 @@ class GradleConan(ConanFile):
     homepage = "https://gradle.org/"
     description = "Gradle is an open-source build automation tool focused on flexibility and performance."
     license = "https://github.com/gradle/gradle/blob/master/LICENSE"
-    build_requires = "java_installer/8.0.144@bincrafters/stable"
+    build_requires = "java_installer/8.0.144@tereius/stable"
     settings = {"os_build": ["Windows", "Linux", "Macos"]}
 
     def source(self):
